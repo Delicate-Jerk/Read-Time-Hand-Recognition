@@ -16,3 +16,15 @@ This Python program utilizes computer vision and keyboard control to interpret h
    ```bash
    pip install opencv-python pynput
    pip install cvzone
+   
+## How it works 🤔
+The program captures video input from the default camera, tracks hand gestures using the HandDetector from cvzone, and maps these gestures to keyboard commands using the pynput library.
+
+✋ If all fingers are closed, the program simulates pressing the Left Arrow key to move left.
+🖐️ If all fingers are open, the program simulates pressing the Right Arrow key to move right.
+
+## Customization 🎨
+You can customize the gesture-to-action mapping by modifying the fingers list based on your preference.
+
+## Acknowledgments 🙌
+This project was created with the help of the cvzone and pynput libraries.
